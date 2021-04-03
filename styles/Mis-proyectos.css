@@ -1,0 +1,142 @@
+.section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding: 60px;
+}
+/* Encabezado Mis Proyectos */
+.proyectos{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titproyec{
+    width: 100%;
+    height: 70px;
+    font-size: 50px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+
+}
+.parrafo-1{
+    width: 80%;
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items:center;   
+}
+/* Cards Mis Proyectos */
+.proyectoscontainer{
+    width: 80%;
+    height: 1057px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.uno{
+   padding-top: 5px; 
+}
+.columna{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+.ancla{
+    text-decoration: none;
+    
+}
+.cuadroblanco{
+    width: 315px;
+    height: 100%;
+    border: 1px solid rgb(221, 219, 219);
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    color: #333;
+    margin: 10px;
+}
+.cuadroimagen{
+    width: 270px;
+    height: 245px;
+    padding: 15px;
+    margin-left: 20px;
+}
+.cuadroletras{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tercerfila{
+    width: 100%;
+    margin-left: -10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+/* Cards con Efecto Hover */
+.cuadroblanco:hover{
+    color: rgb(66, 134, 165);
+    border: 1px solid rgb(66, 134, 165); 
+}
+.cuadroblanco:active{
+    color: rgb(66, 134, 165);
+    border: 1px solid rgb(66, 134, 165); 
+    box-shadow: 0 0 12px 0 rgb(66, 134, 165);
+}
+
+
+/* Diseño Responsive */
+
+@media screen and (max-width: 600px) {
+    /* Section encabezado */
+    .section{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        padding: 30px 10px;
+    }
+    .proyectos{
+        width: 100%;
+    }
+    .titproyec{
+        font-size: 40px;
+    }
+    .parrafo-1{
+        width: 80%;
+        text-align: center;
+    }
+
+    /* Section cards */
+    .proyectoscontainer{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    .columna{
+        flex-direction: column;
+    }
+    .cuadroblanco{
+        width: 100%;
+        height: 85%;
+    }
+}
+

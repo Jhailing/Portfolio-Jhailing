@@ -1,0 +1,164 @@
+/* Encabezado Mis Conocimientos */
+.section1{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(236, 245, 243);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conocimientos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+.miento{ 
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+.lorem{
+    width: 30%;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+.conten-cajas{
+    width: 55%;
+    height: 478px;
+    margin-top: 60px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.cajas1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 8px;
+    
+}
+.program1{
+    width: 230px;
+    height: 200px;
+    border: 1px solid rgb(221, 219, 219);
+    border-radius: 8px;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+}
+.iconos{
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+}
+.html{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.cajas2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8px;
+}
+.program2{
+    width: 230px;
+    height: 200px;
+    border: 1px solid rgb(221, 219, 219);
+    border-radius: 8px;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.fa-js{
+    font-size: 85px;
+    color: rgb(250, 199, 31);
+}
+.fa-git-alt{
+    font-size: 85px;
+    color: rgb(255, 94, 0);
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+.cajas1 a:hover{
+    color: rgb(66, 134, 165);
+    border: 1px solid rgb(66, 134, 165);
+    border-radius: 8px;
+}
+.cajas2 a:hover{
+    color: rgb(66, 134, 165);
+    border: 1px solid rgb(66, 134, 165);
+    border-radius: 8px;
+}
+
+
+/* Diseño Responsive */
+
+@media screen and (max-width: 600px) {
+
+    .section1{
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0;
+    }
+    .conocimientos{
+        width: 50%;
+        text-align: center;
+        line-height: 45px;
+        font-size: 30px;
+        justify-content: center;
+        margin-top: 170px;
+    }
+    .miento{ 
+        font-size: 2.6rem;
+        font-weight: 900;
+    }
+    .lorem{
+        width: 60%;
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+        margin-top: 25px;
+    }
+
+    /* Cards Mis Conocimientos */
+    .conten-cajas{
+        width: 100%;
+        height: 80%;
+        margin: 5px;
+        padding: 10px;
+        flex-direction: row;
+    }
+    .cajas1{
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .cajas2{
+        flex-direction: column;
+    }
+    .program1{
+        margin: 7px;
+    }
+    .program2{
+        margin: 7px; 
+    }
+}
+

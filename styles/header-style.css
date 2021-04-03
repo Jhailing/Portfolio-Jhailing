@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.3rem;
+    line-height: 1.6em;
+    margin: 0;
+    background-color: rgb(236, 245, 243);
+}
+
+.header{
+    width: 100%;
+    height: 130px;
+    background-color:#2d7e8c;
+    box-shadow: 0 0 25px 0 #cac8c8;
+    position: fixed; 
+    top: 0;
+    left: 0;    
+    }
+
+.nav{
+    margin-top: 30px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+nav .lista{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.hipervinculo-ho{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 1rem;
+    letter-spacing: 0.1rem;
+}
+.hipervinculo-cont{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #333;
+    background-color: rgb(207, 230, 236);
+    border: 1px solid #2d7e8c;
+    border-radius: 38px;
+    display: block;
+    padding: 1rem;
+    letter-spacing: 0.1rem;
+}
+/* Icono (burger) que recoje el menu en el responsive */
+.check{
+    display: none; 
+}
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+/* Hover en Header */
+header label:hover{
+    cursor: pointer;
+    background-color:#2d7e8c;
+}
+.hipervinculo-cont:hover{
+    background-color: rgb(212, 220, 225);
+}
+.hipervinculo-cont:active{
+    color: #333;
+    background-color: rgb(212, 220, 225);
+    box-shadow: 0 0 15px 0 rgb(107, 176, 207)
+}
+.hipervinculo-ho:hover {
+    color: rgb(143, 164, 174);
+}
+.hipervinculo-ho:active{
+    color: white;
+    border-radius: 38px;
+    border: 1px solid rgb(107, 176, 207);
+    box-shadow: 0 0 15px 0 rgb(107, 176, 207);
+}
+
+/* Diseño Responsive */
+@media screen and (max-width:600px){
+        body{
+            background-color: rgb(240, 245, 244);
+        }
+        .header{
+            height: 90px;
+        }
+        header label{
+            display: block;
+            margin-top: 20px;
+            font-size: 40px;         
+        }
+        .nav{
+            position: absolute;
+            background:#2d7e8c;
+            width: 38%;
+            margin-left: -60%;
+            top: 90px;
+        }
+        nav .lista{
+            flex-direction: column;
+        }
+        nav .item{
+            text-align: center;
+    
+        }
+        .hipervinculo-cont{
+            color: white;
+            background-color: #2d7e8c;
+            
+        }
+        .hipervinculo-cont:hover{
+            color: rgb(143, 164, 174);
+            background-color: #2d7e8c;
+
+        }
+        .hipervinculo-ho:active{
+            color:white
+           
+        }
+        .hipervinculo-cont:active{
+            color: white;
+        }
+        .check:checked ~ .nav{
+            margin: 0;
+        }
+    }
+    
+   
+
+
+
+
+
+
+

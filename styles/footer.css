@@ -1,0 +1,154 @@
+/* Encabezado Footer */
+.footer{
+    width: 100%;
+    height: 320px;
+    background-color: rgb(66, 134, 165);
+    border: 1px solid rgb(66, 134, 165);
+}
+
+/* Lista Menú */
+.lista1{
+    margin: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    position: relative;
+    left: 450px;
+    top: 50px;
+}
+.hola{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.foo{
+    margin: 10px;
+    color: white;
+    
+}
+/* Section Social Media */
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin: 12px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    display: flex;
+    position: relative;
+    top: 70px;
+}
+.ico-foot{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(66, 134, 165);
+}
+.ico-git{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(66, 134, 165);
+}
+.ico-link{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(66, 134, 165);
+}
+.ico-msj{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(66, 134, 165);
+}
+.circulo{
+    margin: 8px;
+    color: white;
+}
+.logo:hover{
+    background-color: rgb(66, 134, 165);
+    border: 1px solid white;
+}
+.ico-foot:hover{
+    color: white;
+}
+.ico-git:hover{
+    color: white;
+}
+.ico-link:hover{
+    color: white;
+}
+.ico-msj:hover{
+    color: white;
+}
+
+.logo:active{
+    background-color: rgb(66, 134, 165);
+    border: 1px solid white;
+    box-shadow: 0 0 10px 0 white;
+}
+.ico-sec:active{
+    color: white;
+    
+}
+.ico-git:active{
+    color: white;
+}
+.ico-link:active{
+    color: white;
+}
+.ico-msj:active{
+    color: white;
+}
+
+/* Section Copyright */
+.footer-copyright{
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    position: relative;
+    top: 110px;
+}
+
+
+/* Diseño Responsive */
+
+@media screen and (max-width:600px){
+    .footer{
+        width: 100%;
+        margin: 5px;
+    }
+    .lista1{
+        width: 80%;
+        position: static;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .hola{
+        width: 100%;
+    }
+    .social{
+        height: 10%;   
+    }
+    .footer-copyright{
+        margin-top: 20px;
+    }
+}
