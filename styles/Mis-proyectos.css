@@ -116,6 +116,7 @@
     }
     .proyectos{
         width: 100%;
+        margin-top: 50px;
     }
     .titproyec{
         font-size: 40px;
@@ -138,5 +139,54 @@
         width: 100%;
         height: 85%;
     }
+    .buscador{
+        width: 97%;
+        margin-left: 25px;
+    }
 }
+/* Diseño Responsive */
+
+@media screen and (max-width: 370px) {
+    /* Section encabezado */
+    .section{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        padding: 30px 10px;
+       
+    }
+    .proyectos{
+        width: 100%;
+        margin-top: 50px;
+       
+    }
+    .titproyec{
+        font-size: 40px;
+        margin-top: 40px;
+        
+    }
+    .parrafo-1{
+        width: 80%;
+        text-align: center;
+    }
+
+    /* Section cards */
+    .proyectoscontainer{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    .columna{
+        flex-direction: column;
+    }
+    .cuadroblanco{
+        width: 100%;
+        height: 85%;
+    }
+    .buscador{
+        width: 96%;
+        margin-left: 25px;
+    }
+}
+
 

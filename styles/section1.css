@@ -143,13 +143,15 @@ a{
     .conten-cajas{
         width: 100%;
         height: 80%;
-        margin: 5px;
-        padding: 10px;
+        margin: 15px;
+        padding: 15px;
         flex-direction: row;
+        justify-content: center;
     }
     .cajas1{
         flex-direction: column;
         margin-top: 15px;
+        margin-bottom: 3px;
     }
     .cajas2{
         flex-direction: column;
@@ -162,3 +164,74 @@ a{
     }
 }
 
+/* Diseño Responsive */
+
+@media screen and (max-width: 370px) {
+
+    .section1{
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+    .conocimientos{
+        width: 45%;
+        text-align: center;
+        line-height: 45px;
+        justify-content: center;
+        align-content: center;
+        margin-top: 190px;
+        margin-left: 5px;
+    }
+    .miento{ 
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+    .lorem{
+        width: 60%;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        margin-top: 25px;
+    }
+
+    /* Cards Mis Conocimientos */
+    .conten-cajas{
+        width: 100%;
+        height: 80%;
+        margin-left: 15px;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .cajas1{
+        width: 55%;
+        flex-direction: column;
+        margin-top: 12px;
+        margin-bottom: 2px;
+        padding: 5px;
+     
+    }
+    .cajas2{
+        width: 55%;
+        padding: 7px;
+        margin-left: 5px;
+        flex-direction: column;
+      
+    }
+    .program1{
+        width: 100%;
+        margin: 7px;
+        
+    }
+    .program2{
+        width: 100%;
+        margin: 7px; 
+    }
+    .iconos{
+        width: 40px;
+        height: 40px;
+    }
+    .html{
+        font-size: 18px;
+    }
+}

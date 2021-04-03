@@ -152,3 +152,31 @@
         margin-top: 20px;
     }
 }
+
+@media screen and (max-width:370px){
+    .footer{
+        width: 100%;
+       
+    }
+    .lista1{
+        width: 90%;
+        justify-content: space-around;
+        align-self: center;
+        /* margin-top: 50px;
+        margin-left: 50px; */
+    }
+    .hola{
+        width: 80%;
+        justify-content: space-around;
+        align-content: center;
+        flex-grow: 1;
+    }
+    .social{
+        height: 10%;   
+    }
+ 
+    .footer-copyright{
+        margin-top: 20px;
+    }
+}
+

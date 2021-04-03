@@ -45,3 +45,14 @@
         height: auto;
     }
 }
+
+@media screen and (max-width: 370px) {
+    .section2{
+        width: 100%;
+        height: 100%;
+    }
+    .four-part{
+        margin-top: 5px;
+    }
+   
+}
