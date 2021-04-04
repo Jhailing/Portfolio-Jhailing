@@ -146,23 +146,23 @@
 }
 /* Diseño Responsive */
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 360px) {
     /* Section encabezado */
     .section{
         width: 100%;
         height: 100%;
         flex-direction: column;
-        padding: 30px 10px;
+        /* padding: 30px 10px; */
        
     }
     .proyectos{
         width: 100%;
-        margin-top: 50px;
+        margin-top: 30px;
        
     }
     .titproyec{
-        font-size: 40px;
-        margin-top: 40px;
+        font-size: 35px;
+        margin-top: 30px;
         
     }
     .parrafo-1{
@@ -175,6 +175,7 @@
         width: 100%;
         height: 100%;
         flex-direction: column;
+        margin-right: 40px;
     }
     .columna{
         flex-direction: column;

@@ -115,10 +115,13 @@ a{
 
     .section1{
         width: 100%;
-        margin: 0;
+        height: auto;
+        margin-top: 100px;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-        padding: 30px 0;
+        padding: 0px 10px;
+        background-color: rgb(236, 245, 243);
     }
     .conocimientos{
         width: 50%;
@@ -126,10 +129,10 @@ a{
         line-height: 45px;
         font-size: 30px;
         justify-content: center;
-        margin-top: 170px;
+        margin-top: -5px;
     }
     .miento{ 
-        font-size: 2.6rem;
+        font-size: 2.5rem;
         font-weight: 900;
     }
     .lorem{
@@ -143,21 +146,22 @@ a{
     .conten-cajas{
         width: 100%;
         height: 80%;
-        margin: 15px;
-        padding: 15px;
+        padding: 10px;
         flex-direction: row;
         justify-content: center;
+        align-content: center;
+        
     }
     .cajas1{
         flex-direction: column;
-        margin-top: 15px;
+        margin-top: 10px;
         margin-bottom: 3px;
     }
     .cajas2{
         flex-direction: column;
     }
     .program1{
-        margin: 7px;
+        margin: 8px;
     }
     .program2{
         margin: 7px; 
@@ -166,14 +170,15 @@ a{
 
 /* Diseño Responsive */
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 360px) {
 
     .section1{
         width: 100%;
-        margin: 0;
+        margin-top: 80px;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-        padding: 20px 0;
+        background-color: rgb(236, 245, 243);
     }
     .conocimientos{
         width: 45%;
@@ -181,16 +186,16 @@ a{
         line-height: 45px;
         justify-content: center;
         align-content: center;
-        margin-top: 190px;
-        margin-left: 5px;
+        margin-top: 0px;
+        margin-left: 3px;
     }
     .miento{ 
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: 900;
     }
     .lorem{
         width: 60%;
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: 1.6rem;
         margin-top: 25px;
     }
@@ -198,8 +203,8 @@ a{
     /* Cards Mis Conocimientos */
     .conten-cajas{
         width: 100%;
-        height: 80%;
-        margin-left: 15px;
+        height: auto;
+        margin-right: 25px;
         flex-direction: row;
         justify-content: center;
     }
@@ -209,14 +214,12 @@ a{
         margin-top: 12px;
         margin-bottom: 2px;
         padding: 5px;
-     
     }
     .cajas2{
         width: 55%;
         padding: 7px;
         margin-left: 5px;
         flex-direction: column;
-      
     }
     .program1{
         width: 100%;
@@ -233,5 +236,13 @@ a{
     }
     .html{
         font-size: 18px;
+    }
+    .fa-js{
+        font-size: 55px;
+       
+    }
+    .fa-git-alt{
+        font-size: 60px;
+        
     }
 }

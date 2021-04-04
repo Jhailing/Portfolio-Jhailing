@@ -88,25 +88,26 @@ main{
 main{
     margin: 0;
     width: 100%;
+    height: auto;
 }
 .container_main{
+    margin: 0;
     flex-direction: column-reverse;
-    justify-content: flex-end;
-    height: 100%;
-    padding: 30px 0;
+    justify-content:flex-start;
+    align-content: center;
     background: linear-gradient(#2d7e8c, white);
 }
 .text-main{
-    width: 100%;
-    text-align: center;
-    margin: -175px; 
-    justify-content: center;
-    align-content: center;
+        width: 65%;
+        height: 340px;
+        text-align: center;
+        position: relative;
+        top: -200px;
+        right: 70px;
 }
 .imagen{
-    margin: 70px;
+    margin-top: 90px;
     width: 200px;
-    height: auto;
 }
 .img-main{
     width: 320px;
@@ -117,8 +118,9 @@ main{
     margin-left: 45px;
 }
 .namefull{
-    width:80%;
+    width: 100%;
     margin-top: 15px;
+    margin-left: 15px;
     line-height: 55px;
     font-size: 55px;
 }
@@ -133,49 +135,49 @@ main{
     width: 150px;
     font-size: 15px;
     margin-top: 25px;
-    margin-left: 200px;  
+    margin-left: 130px;  
 }
 }
 
 /* Diseño Responsive */
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 360px) {
     main{
         margin: 0;
         width: 100%;
+        height: auto;
     }
     .container_main{
+        margin: 0;
         flex-direction: column-reverse;
-        justify-content: flex-end;
-        height: 100%;
-        padding: 10px 0;
+        justify-content:center;
+        align-content: center;
         background: linear-gradient(#2d7e8c, white);
     }
     .text-main{
-        width: 100%;
-        text-align: center;
-         
-        justify-content: center;
-        align-content: center;
+            width: 80%;
+            height: 340px;
+            text-align: center;
+            position: relative;
+            top: -160px;
+            right: 70px;
     }
     .imagen{
-        margin: 70px;
-        padding:10px;
-        width: 150px;
-        height: auto;
-        justify-content: center;
+        margin-top: 90px;
+        width: 200px;
     }
     .img-main{
-        width: 320px;
-        height: 420px;
+        width: 280px;
+        height: 380px;
     }
     .name{
         width:80%;
         margin-left: 45px;
     }
     .namefull{
-        width:80%;
+        width: 100%;
         margin-top: 15px;
+        margin-left: 15px;
         line-height: 55px;
         font-size: 55px;
     }
@@ -190,6 +192,8 @@ main{
         width: 150px;
         font-size: 15px;
         margin-top: 25px;
-        margin-left: 130px;  
+        margin-left: 90px;  
     }
     }
+
+   

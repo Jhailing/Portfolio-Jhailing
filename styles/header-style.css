@@ -95,10 +95,13 @@ header label:hover{
 /* Diseño Responsive */
 @media screen and (max-width:600px){
         body{
+            width: 100%;
             background-color: rgb(240, 245, 244);
         }
         .header{
+            width: 99%;
             height: 90px;
+            z-index: 1;
         }
         header label{
             display: block;
@@ -140,6 +143,8 @@ header label:hover{
             margin: 0;
         }
     }
+
+   
 
 
    
